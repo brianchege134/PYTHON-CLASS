@@ -65,6 +65,67 @@ print (s1.count("home"))
 print (s1 .title() )
 print (s1. isdigit())
 print (s1.find("11"))
+def my_function():
+  print("Hello World")
+my_function()
+
+def sum(x,y):
+  a=x+y
+  print("the sum is",a)
+sum(10,20)
+sum(501,958)
+
+def multi(x,y):
+  a=x*y
+  print("the multi is",a)
+multi(10,20)
+multi(501,958)
+
+def sum(x,y):
+  a=x+y
+  return a
+print(sum(10,20))
+
+def divide(x,y):
+  a=x/y
+  print("the division is",a)
+divide(10,20)
+
+def courses(*args):
+  for subject in args:
+    print(subject)
+courses("big data","ccna","00p2")
+def courses(*args):
+  for subject in args:
+    return subject
+print(courses("bid data", "cnna", "00p2"))
+
+def courses(**kwargs):
+  for key, value in kwargs.items():
+    print("{}:{}".format(key,value)) 
+courses(first='big data',second='ccna',third='00p2')
+def kenya(county ="Momabasa"):
+  print("i am from" + county)
+kenya()
+kenya("Nairobi")
+kenya("Kiambu")
+kenya("Kisumu")
+def my_function(food):
+  for x in food:
+    print(x)
+fruits =["apple","bananas","cherry"]
+my_function(fruits)
+
+def area  (l,W):
+      a=L*W
+      print("the area is",a)
+multi(6,8)
+
+l= 6
+w=7
+a=l*w
+print("area is",a)
+
 
 
 
